@@ -1,0 +1,46 @@
+version: '3.2'
+services:
+
+  ollama:
+      image: ollama/ollama:latest
+      container_name: ollama
+      hostname: ollama
+      restart: always
+      volumes:
+        - /usr/share/ollama/.ollama:/root/.ollama
+      ports:
+        - 11434:11434
+      deploy:
+        resources:
+          limits:
+            cpus: '6'    # Adjust according to your CPU configuration, default 6
+            memory: 4g   # Adjust according to your memory configuration, default 4 (for 3b models)
+      networks:
+        - chatbot
+
+
+  webui:
+      image: ghcr.io/open-webui/open-webui:main
+      container_name: webui
+      hostname: webui
+      restart: always
+      volumes:
+        - open-webui:/app/backend/data
+      ports:
+        - 3010:8080
+      deploy:
+        resources:
+          limits:
+            cpus: '1'
+            memory: 300m
+      extra_hosts:
+        - "host.docker.internal:host-gateway"
+      networks:
+        - chatbot
+
+volumes:
+  open-webui:
+
+networks:
+  chatbot:
+    driver: bridge

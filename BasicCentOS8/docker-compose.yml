@@ -1,0 +1,15 @@
+version: '3.2'
+services:
+
+  centos:
+    image: giffy/centos8_base:latest
+    container_name: centos8_base
+    hostname: centos8
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1g
+    volumes:
+      - /tmp:/tmp
+      - ./data:/data
