@@ -18,7 +18,7 @@ I included the steps in a bash script (following the official installation).
 This is the list of dockerized applications or achitecture and contained applications.
 
 |Folder name| Content| Image size |
-|---|---|
+|---|---|---|
 | BasicCentOS8 | Base container within CentOS 8 + repositories ans updated.| 534Mb |
 | BasicUbuntu20.04 | Base container within Ubuntu20.04 + repositories ans updated.| 220Mb |
 | BasicUbuntu22.04 | Base container within Ubuntu22.04 + repositories ans updated.| 215Mb |
