@@ -8,7 +8,7 @@ Requires docker installed:
 
 - Windows: requires WSL 2 and a linux distribution installed recommended Ubuntu 22.04, then follow linux requirements.
 
-- Linux: Installed docker engine, in this repository you can find the official description here: https://docs.docker.com/engine/install/ubuntu/
+- Linux: Installed docker engine, in this repository you can find the [official installation instructions](https://docs.docker.com/engine/install/ubuntu/)
 
 I included the steps in a bash script (following the official installation). 
 
