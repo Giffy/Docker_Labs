@@ -19,9 +19,9 @@ This is the list of dockerized applications or achitecture and contained applica
 
 |Folder name| Content| Image size |
 |---|---|---|
-| BasicCentOS8 | Base container within CentOS 8 + repositories ans updated.| 534Mb |
-| BasicUbuntu20.04 | Base container within Ubuntu20.04 + repositories ans updated.| 220Mb |
-| BasicUbuntu22.04 | Base container within Ubuntu22.04 + repositories ans updated.| 215Mb |
-| Homarr | Simplified dashboard webserver used as container bookmark to simplify access to them.| 632Mb |
-| Ollama  | Ollama + open Web UI provides a web-based interface for administering Ollama, making it easy to manage and use AI models.| 4.14Gb + 300Mb |
-| Portainer | Portainer is a web-based interface for managing and monitoring Docker containers, allowing users to create, start, stop, and inspect running containers.| 303Mb + 212Mb |
+| [BasicCentOS8](https://github.com/Giffy/Docker_Labs/tree/main/BasicCentOS8) | Base container within CentOS 8 + repositories ans updated.| 534Mb |
+| [BasicUbuntu20.04](https://github.com/Giffy/Docker_Labs/tree/main/BasicUbuntu20.04) | Base container within Ubuntu20.04 + repositories ans updated.| 220Mb |
+| [BasicUbuntu22.04](https://github.com/Giffy/Docker_Labs/tree/main/BasicUbuntu22.04) | Base container within Ubuntu22.04 + repositories ans updated.| 215Mb |
+| [Homarr](https://github.com/Giffy/Docker_Labs/tree/main/Homarr) | Simplified dashboard webserver used as container bookmark to simplify access to them.| 632Mb |
+| [Ollama](https://github.com/Giffy/Docker_Labs/tree/main/Ollama)  | Ollama + open Web UI provides a web-based interface for administering Ollama, making it easy to manage and use AI models.| 4.14Gb + 300Mb |
+| [Portainer](https://github.com/Giffy/Docker_Labs/tree/main/Portainer) | Portainer is a web-based interface for managing and monitoring Docker containers, allowing users to create, start, stop, and inspect running containers.| 303Mb + 212Mb |
