@@ -1,0 +1,15 @@
+version: '3.2'
+services:
+
+  ubuntu22:
+    image: giffy/ubuntu_base22:latest
+    container_name: ubuntu_base22
+    hostname: ubuntu22
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1g
+    volumes:
+      - /tmp:/tmp
+      - ./data:/data

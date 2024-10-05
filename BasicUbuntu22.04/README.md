@@ -1,4 +1,6 @@
-# CentOS 8
+# Ubuntu 22.04
+
+
 
 # Content
 

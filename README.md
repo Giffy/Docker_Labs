@@ -17,7 +17,11 @@ I included the steps in a bash script (following the official installation).
 # Content
 This is the list of dockerized applications or achitecture and contained applications.
 
-|Folder name| Content|
+|Folder name| Content| Image size |
 |---|---|
-| Portainer | Portainer is a web-based interface for managing and monitoring Docker containers, allowing users to create, start, stop, and inspect running containers.|
-| Ollama  | Ollama + open Web UI provides a web-based interface for administering Ollama, making it easy to manage and use AI models.|
+| BasicCentOS8 | Base container within CentOS 8 + repositories ans updated.| 534Mb |
+| BasicUbuntu20.04 | Base container within Ubuntu20.04 + repositories ans updated.| 220Mb |
+| BasicUbuntu22.04 | Base container within Ubuntu22.04 + repositories ans updated.| 215Mb |
+| Homarr | Simplified dashboard webserver used as container bookmark to simplify access to them.| 632Mb |
+| Ollama  | Ollama + open Web UI provides a web-based interface for administering Ollama, making it easy to manage and use AI models.| 4.14Gb + 300Mb |
+| Portainer | Portainer is a web-based interface for managing and monitoring Docker containers, allowing users to create, start, stop, and inspect running containers.| 303Mb + 212Mb |

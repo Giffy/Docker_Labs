@@ -1,4 +1,6 @@
-# CentOS 8
+# Ubuntu 20.04
+
+
 
 # Content
 
