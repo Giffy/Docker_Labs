@@ -1,4 +1,4 @@
-# Ollama AI
+# Ollama + open webUI
 This repository includes the examples to run ollama as docker-compose, with a script launching docker run commands.
 
 

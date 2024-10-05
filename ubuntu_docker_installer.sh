@@ -1,6 +1,6 @@
 ### Installs docker in Ubuntu
 
-# Source:     https://docs.docker.com/engine/install/ubuntu/
+# Source:     https://docs.docker.com/engine/install/
 # Updated:    21/09/2024
 # OS version: Ubuntu 24.04 LTS  (cat /etc/os-release)
 
