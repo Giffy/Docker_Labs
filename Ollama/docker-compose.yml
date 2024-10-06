@@ -5,7 +5,7 @@ services:
       image: ollama/ollama:latest
       container_name: ollama
       hostname: ollama
-      restart: always
+      restart: unless-stopped
       volumes:
         - /usr/share/ollama/.ollama:/root/.ollama
       ports:
@@ -22,7 +22,7 @@ services:
       image: ghcr.io/open-webui/open-webui:main
       container_name: webui
       hostname: webui
-      restart: always
+      restart: unless-stopped
       volumes:
         - open-webui:/app/backend/data
       ports:

@@ -1,6 +1,6 @@
 #/bin/bash
 
-IMAGE_NAME="giffy/ubuntu_base20"
+IMAGE_NAME="giffy/ubuntu20_base"
 VERSION="$1"
 
 if ! [[ $VERSION =~ ^[a-zA-Z0-9_]{1,40}$ ]]
